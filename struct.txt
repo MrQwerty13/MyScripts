@@ -1,0 +1,31 @@
+WeatherPiServer/
+│
+├── collector/
+│   ├── __init__.py
+│   ├── collector.py
+│   ├── weather_api.py
+│   └── storage.py
+│
+├── api/
+│   ├── __init__.py
+│   ├── app.py
+│   └── routes.py
+│
+├── shared/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── logger.py
+│   └── models.py
+│
+├── data/
+│   └── weather/
+│
+├── logs/
+│
+├── tests/
+│
+├── main.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── .env
